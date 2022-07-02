@@ -1,0 +1,9 @@
+.button {
+	color: var(--color-text-white);
+	background-color: var(--color-accent);
+	font-family: inherit;
+	text-align: center;
+	border-radius: 4px;
+	border: 0;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
